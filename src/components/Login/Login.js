@@ -9,27 +9,7 @@ import offer1 from '../../images/offer1.png'
 import "./Login.css";
 
 const LoginForm = (props) => {
-  // let [name, setName] = useState('')
-  // let [email, setemail] = useState('')
-  // let [pass, setpass] = useState('')
-  // let [npass, setnpass] = useState('')
-  // let [state, setstate] = useState('')
-
-  // let changeName = (e) => {
-  //     setName(e.target.value)
-  // }
-  // let changeEmail = (e) => {
-  //     setemail(e.target.value)
-  // }
-  // let changePass = (e) => {
-  //     setpass(e.target.value)
-  // }
-  // let changenPass = (e) => {
-  //     setnpass(e.target.value)
-  // }
-  // let changeState = (e) => {
-  //     setstate(e.target.value)
-  // }
+ 
 
   let [valueState, setValue] = React.useState({
     name: "",
