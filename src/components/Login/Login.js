@@ -133,6 +133,12 @@ const LoginForm = (props) => {
           <option value="Bihar">Bihar</option>
           <option value="Goa">Goa</option>
           <option value="Punjab">Punjab</option>
+  <option value="Jharkhand">Jharkhand</option>
+          <option value="Orissa">Orissa</option>
+          <option value="WestBengal">WestBengal</option>
+ <option value="Maharashtra">Maharashtra</option>
+          <option value="Karnatka">WestBengal</option>
+     <option value="Kerala">Kerala</option>
         </select>
       </div>
       {err ? <div className="err">{errtext}</div> : null}
